@@ -1,0 +1,19 @@
+[project]
+name = "pcit751-digital-signal-processing-lab"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Raghav Gupta", email = "142162663+Raghav-56@users.noreply.github.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "matplotlib>=3.11.2",
+]
+
+[project.scripts]
+pcit751-digital-signal-processing-lab = "pcit751_digital_signal_processing_lab:main"
+
+[build-system]
+requires = ["uv_build>=0.13.4,<0.14.0"]
+build-backend = "uv_build"
